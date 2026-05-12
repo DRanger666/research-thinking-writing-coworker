@@ -36,7 +36,7 @@ P026 transfers by content and audit logic, not by rigid format. Its front-end ch
 6. **Align purpose, RQs/objectives, and aims.** Each objective should answer the problem, be specific, realistic, and testable or investigable through the proposed method.
 7. **Check significance.** Specify who benefits and how the study contributes to theory, practice, policy, method, or future research. Avoid "adds to the literature" as the only significance.
 8. **Define boundaries.** Add operational definitions for key terms; clarify scope, delimitations, assumptions, and what the study will not cover.
-9. **Fit method/design at front-end level.** State why the design can answer the RQs and address the gap. Keep details at alignment level unless the user supplies protocol requirements; for meta-analysis or evidence synthesis, hand off to `references/method-meta-analysis.md`.
+9. **Fit method/design at front-end level.** State why the design can answer the RQs and address the gap. Keep details at alignment level unless the user supplies protocol requirements. For high-level non-meta design-family fit, hand off to `references/method-fit-triage.md`; for meta-analysis or evidence synthesis, hand off to `references/method-meta-analysis.md`.
 10. **Audit flow.** The front end should read as a chain: focused background -> problem -> gap/stakes -> purpose -> RQs/objectives/aims -> significance -> feasible design.
 
 ## Front-end alignment checks
@@ -68,7 +68,7 @@ P026 transfers by content and audit logic, not by rigid format. Its front-end ch
 
 - Do not treat proposal, thesis, manuscript Introduction, supervisor memo, and outreach as interchangeable.
 - Do not use P026 as a rigid format template outside thesis contexts.
-- Do not provide detailed methods protocols beyond front-end fit unless the user supplies standards or asks for high-level meta-analysis/evidence-synthesis planning.
+- Do not provide detailed methods protocols beyond front-end fit unless the user supplies standards. Use `references/method-fit-triage.md` for high-level non-meta design-family alignment and `references/method-meta-analysis.md` for high-level meta-analysis/evidence-synthesis planning.
 - Do not overstate grant-specific conventions; use specific-aims-like logic only as a compact argumentative front-end pattern unless funder/program guidance is supplied or retrieved.
 - Do not build a full literature review here. Use selective literature to justify the problem; hand off detailed synthesis to `references/cluster-literature-review.md`.
 - Do not polish a proposal whose gap, problem, or RQs are unsupported.
@@ -78,5 +78,6 @@ P026 transfers by content and audit logic, not by rigid format. Its front-end ch
 - Use `references/cluster-gap-problem.md` for novelty, gap taxonomy, problem-statement repair, RQ/aim alignment, hypothesis logic, or weak absence-only claims.
 - Use `references/cluster-literature-review.md` for detailed literature synthesis, theme maps, related-work architecture, or source-grounded AI-assisted paper comparison.
 - Use `references/manuscript-and-results.md` when converting the front end into a manuscript Introduction or aligning aims, Methods, Results, and contribution across a full paper.
+- Use `references/method-fit-triage.md` when a proposal/front-end question asks whether the RQ, objective, aim, hypothesis, evidence type, and broad design family fit each other.
 - Use `references/method-meta-analysis.md` when the proposed design is a meta-analysis or quantitative evidence synthesis and the user needs a high-level workflow check.
 - Use `references/language-and-outreach.md` for final academic phrasing, significance wording, concise supervisor outreach, or person-to-person research communication after the logic is coherent.

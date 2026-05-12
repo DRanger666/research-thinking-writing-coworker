@@ -1,4 +1,4 @@
 interface:
   display_name: "Research Thinking Writing Coworker"
-  short_description: "Research thinking and writing coworker"
-  default_prompt: "Use $research-thinking-writing-coworker to diagnose and improve a research idea, section, or reviewer response."
+  short_description: "Diagnose research logic, evidence fit, drafts, and reviewer readiness."
+  default_prompt: "Diagnose this research idea or draft section, identify weak logic, and suggest the next revision step."

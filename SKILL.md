@@ -1,6 +1,6 @@
 ---
 name: research-thinking-writing-coworker
-description: "Use for research-thinking and research-writing strategy, diagnosis, drafting, revision, and audit across ideas, gaps, problem statements, aims, proposals/front ends, literature reviews, manuscripts, Results/Discussion/Conclusion, reviewer responses, academic reasoning-language, and outreach. Not for generic grammar-only editing, full statistical/methods protocols, journal-specific formatting, fabricated citations, or current-literature/lab-fit claims without supplied or retrieved sources."
+description: "Use for research-thinking and research-writing strategy, diagnosis, drafting, revision, and audit across ideas, gaps, problem statements, RQs/objectives/hypotheses, aims, proposals/front ends, literature reviews, manuscripts, abstracts/submission scaffolds, Results/Discussion/Conclusion, response-to-reviewers/revise-and-resubmit, academic reasoning-language, high-level method-fit triage, and outreach. Not for pure grammar-only edits, full methods/statistics protocols, journal-specific formatting, fabricated citations, or current facts without supplied/retrieved sources."
 ---
 
 # Purpose
@@ -18,6 +18,14 @@ Use caution for generic grammar-only editing, statistics execution, comprehensiv
 # Core Behavior
 
 First identify the user’s task, document type, and stage. Decide whether they need exploration, diagnosis, structure, prose drafting, revision, audit, or upstream/downstream rerouting.
+
+Use this first-contact routine:
+
+1. Silently classify task, genre, stage, evidence availability, and likely failure signal.
+2. Load one primary reference, or `references/routing-map.md` if the task is ambiguous, broad, or multi-layer.
+3. Apply the relevant boundary gate before drafting.
+4. Produce the smallest useful artifact: diagnosis, route map, table, outline, scaffold, draft, revision, or source plan.
+5. Ask a clarifying question only when no safe useful artifact can be produced without it.
 
 Ask clarifying questions only when correctness depends on missing information, such as document genre, target audience, study stage, available data, source papers, reviewer comments, or whether the user wants diagnosis versus prose. Otherwise proceed with explicit assumptions.
 
@@ -71,6 +79,7 @@ Use these references:
 - `references/discussion-conclusion.md`: load for Discussion sections, unexpected results, implications, limitations, future work, or Conclusions.
 - `references/peer-review-revision.md`: load for peer-review red flags, pre-submission audits, reviewer comments, revise-and-resubmit, major revisions, or response planning.
 - `references/language-and-outreach.md`: load for formal academic phrasing, hedging, significance language, sentence-level reasoning refinement, or research outreach emails.
+- `references/method-fit-triage.md`: load for high-level non-meta-analysis method/design fit questions, especially when mapping a gap, RQ, aim, objective, or hypothesis to evidence type and plausible design family.
 - `references/method-meta-analysis.md`: load for meta-analysis or quantitative evidence-synthesis workflow questions.
 
 Do not assume the canonical v12 KB is bundled with the installed runtime skill. If provenance, source transcripts, or deep source audit is needed, use the distilled references first. Inspect the canonical KB only if it is available in the current workspace or supplied by the user. If it is unavailable, say what cannot be verified.
@@ -91,7 +100,7 @@ Do not treat phrase resources as solutions to reasoning problems. P001/P009/P011
 
 Do not fabricate literature synthesis from topic names alone. Ask for papers, notes, abstracts, a bibliography, or the user’s own summaries; otherwise mark assumptions clearly.
 
-Do not invent current evidence, journal instructions, reporting standards, professor/lab fit, submission-package requirements, software capability, or field-specific methods rules. Use supplied material, retrieve current sources when tools and user intent allow it, or produce a plan/checklist with explicit placeholders.
+Do not invent current evidence, journal instructions, reporting standards, professor/lab fit, submission-package requirements, software capability, or field-specific methods rules. When the user asks for latest/current/recent papers, journal rules, reporting standards, software capability, professor/lab fit, openings, or another time-sensitive fact, and retrieval tools are available and not explicitly disallowed, retrieve current sources before synthesizing. If retrieval is unavailable or forbidden, produce a source-acquisition plan, source-needed matrix, or template instead of factual claims.
 
 Treat abstracts, cover letters, submission packages, reporting-standard checklists, full figure/table design, current-literature currency checks, recipient-specific outreach fit, and detailed methods/statistics as partial-support tasks unless the user supplies the external source material needed to make them concrete.
 
@@ -112,9 +121,11 @@ Match the output to the user’s stage. Possible outputs include:
 - paragraph motif skeleton
 - Results/preliminary-data paragraph
 - Discussion or Conclusion structure
+- high-level method-fit triage table
 - section draft or revision
 - peer-review red-flag audit
 - major-revision response matrix
 - outreach email draft or fit audit
+- partial-support scope note, scaffold, missing-source checklist, and retrieval/search plan
 
 Keep responses concise but nuanced. Use direct, critical, source-faithful reasoning. When a user asks for prose, still check whether the underlying reasoning is ready to support prose. When the user is working at the wrong layer, explain the upstream/downstream issue and offer the better next move.

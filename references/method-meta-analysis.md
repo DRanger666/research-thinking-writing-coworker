@@ -4,7 +4,7 @@
 
 Load this file when the user asks about planning or auditing a meta-analysis, quantitative evidence synthesis, effect-size planning, meta-analysis feasibility, literature search for a meta-analysis, inclusion/exclusion criteria for a meta-analysis, coding quantitative study information, or drafting/auditing meta-analysis Methods, Results, or proposal methods language.
 
-This file covers P018 only: high-level meta-analysis / quantitative evidence-synthesis planning, feasibility checking, positioning, and reporting structure. It is not universal methods guidance, not general statistics tutoring, not a complete technical protocol, and not authority for field-specific reporting standards or risk-of-bias procedures. Use supplied or retrieved external standards for PRISMA, risk-of-bias tools, registration, field-specific reporting, or software-specific implementation.
+This file covers P018 only: high-level meta-analysis / quantitative evidence-synthesis planning, feasibility checking, positioning, and reporting structure. It is not universal methods guidance, not general statistics tutoring, not a complete technical protocol, and not authority for field-specific reporting standards or risk-of-bias procedures. Use `references/method-fit-triage.md` for high-level non-meta design-family fit. Use supplied or retrieved external standards for PRISMA, risk-of-bias tools, registration, field-specific reporting, or software-specific implementation.
 
 ## First gate: is meta-analysis feasible?
 

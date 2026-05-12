@@ -44,6 +44,8 @@ Do not polish weak gap language before checking the underlying research logic. A
 
 Preserve the v12 caveat on P020: the source has a likely inconsistency in the theoretical-gap row. Use the taxonomy operationally with caution and do not overclaim the source beyond its visible wording.
 
+P013 search-loop guidance and P020 gap taxonomy are runtime scaffolds. They help organize research thinking, but they do not themselves prove field novelty, establish a complete search protocol, or verify that a gap exists.
+
 ## Gap-quality audit
 
 Before drafting, check:
@@ -73,5 +75,6 @@ Before drafting, check:
 - Use `references/cluster-literature-review.md` when the gap must be supported by thematic synthesis, not just a gap paragraph.
 - Use `references/cluster-front-end-proposal.md` after the gap/problem is validated and must become a concept paper, proposal, specific-aims-like page, Chapter 1, qual proposal, or supervisor memo.
 - Use `references/manuscript-and-results.md` when the problem, aim, method, Results, and manuscript Introduction must align across a full paper.
+- Use `references/method-fit-triage.md` when an RQ, aim, objective, hypothesis, evidence type, or broad design family must be checked for fit.
 - Use `references/peer-review-revision.md` when the user wants a reviewer-facing risk audit or is responding to reviewer comments about novelty, gap, literature, or problem framing.
 - Use `references/language-and-outreach.md` only after logic is sound or when the task is sentence-level reasoning refinement, hedging, significance wording, or research outreach.

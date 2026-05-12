@@ -4,13 +4,13 @@
 
 Load this file for whole-manuscript architecture, manuscript outline or draft audits, publication-readiness checks, aim-method-result-discussion alignment, Results writing, preliminary-data communication, abstract alignment, submission-readiness triage, and high-level table/figure narrative discipline.
 
-Use it first when the user asks for a full manuscript audit or Results/preliminary-data help. If the task becomes primarily gap, literature-review, Discussion, peer-review, meta-analysis, or language/outreach work, keep this file as the manuscript hub and hand off to the section-specific reference.
+Use it first when the user asks for a full manuscript audit, manuscript coordination plan, or Results/preliminary-data help. If the task becomes primarily gap, literature-review, Discussion, peer-review, method-fit, meta-analysis, or language/outreach work, keep this file as the manuscript hub and hand off to the section-specific reference.
 
 ## Core roles
 
 | Resource | Runtime role | Boundary |
 |---|---|---|
-| P014 | Manuscript-wide architecture and publication-readiness hub/integrator. Coordinates target audience/journal, Introduction, Methods, Results, Discussion, title, submission rules, and final checklist. | Not a cluster, not an abstract manual, and not a replacement for section-specific references or journal instructions. Use it to align sections, then load the relevant section file. |
+| P014 | Manuscript-wide architecture and publication-readiness hub/integrator. Coordinates target audience/journal, authorship/work ownership planning when governed by local norms, Introduction, Methods, Results, Discussion, title, submission rules, and final checklist. | Not a cluster, not an abstract manual, not an authorship-ethics authority, and not a replacement for section-specific references or journal instructions. Use it to align sections, then load the relevant section file. |
 | P006 | Local findings-communication resource for Results, Discussion-adjacent findings language, preliminary data, grant/qual materials, progress updates, and figure/table references. | Adjacent to Discussion but not a Discussion-cluster member. Keep Results reporting separate from Discussion interpretation. |
 
 ## Manuscript alignment workflow
@@ -20,12 +20,30 @@ Use P014 as an alignment engine, not as a universal template. Audit the manuscri
 1. **Target audience/journal.** Identify the intended readers, genre, and journal or venue expectations if supplied. Do not invent journal-specific rules. If rules are missing, audit for general reader fit and say that journal-specific formatting needs supplied guidance.
 2. **Central aim.** State the paper’s specific aim(s) in one or two sentences. The aim should answer the gap/problem, not merely name a topic.
 3. **Introduction.** Check the narrowing argument: importance -> what is known -> what is not known -> why the missing knowledge matters -> specific aim. If the opening is a broad topic or unsupported problem statement, hand off to `references/cluster-gap-problem.md`; if it lacks synthesis, hand off to `references/cluster-literature-review.md`.
-4. **Methods.** Check whether the Methods let readers understand how evidence was produced and how to interpret it: setting, participants/sample, design/timing, data source/collection, variables/measures, covariates, analysis aligned to each objective, and ethics where relevant. Require justification of choices. Provide method-fit and transparency guidance, not a full technical protocol, unless the user supplies standards; for meta-analysis/evidence-synthesis workflow, hand off to `references/method-meta-analysis.md`.
+4. **Methods.** Check whether the Methods let readers understand how evidence was produced and how to interpret it: setting, participants/sample, design/timing, data source/collection, variables/measures, covariates, analysis aligned to each objective, and ethics where relevant. Require justification of choices. Provide method-fit and transparency guidance, not a full technical protocol, unless the user supplies standards; for high-level non-meta method fit, hand off to `references/method-fit-triage.md`; for meta-analysis/evidence-synthesis workflow, hand off to `references/method-meta-analysis.md`.
 5. **Results.** Verify that each aim/objective has a corresponding result and that all reported results were made interpretable by the Methods.
 6. **Discussion.** Check that the Discussion interprets key findings, compares with literature/theory, explains implications and limitations, and does not introduce new results. Hand off to `references/discussion-conclusion.md` for the actual Discussion build.
 7. **Conclusion.** Check that the ending compresses the completed argument and stays within the design/data. Hand off to `references/discussion-conclusion.md` for Conclusion drafting.
 8. **Title.** Check whether the title is informative, searchable, audience-appropriate, and aligned with variables, population/setting, design, timing, or main result where appropriate.
 9. **Final checklist.** Audit consistency across aim, Methods, Results, Discussion, title, citations, table/figure messages, limitations, implications, and future steps.
+
+### Pre-writing manuscript coordination
+
+Use this as high-level coordination support before drafting or revising a paper. Do not decide authorship ethics, institutional policy, journal policy, contribution disputes, or author order without supplied rules. If local norms, PI instructions, contributor roles, or journal authorship criteria are missing, mark them as unresolved.
+
+Check:
+
+- target reader, journal, venue, or audience if known;
+- author list, order, responsibilities, and corresponding author only as governed by supplied/local norms;
+- section ownership for Introduction, Methods, Results, Discussion, Conclusion, tables/figures, references, abstract, cover letter, and submission materials;
+- who owns data, analysis, figure/table generation, citation checking, response-to-reviewers, and final proofreading;
+- timeline, review checkpoints, decision owner, and unresolved dependencies;
+- missing guidance: author-contribution rules, journal requirements, ethics/data/reporting statements, funding or acknowledgment rules.
+
+Default output:
+
+| Decision | Current status | Owner | Dependency | Next action |
+|---|---|---|---|---|
 
 ### Submission-readiness and abstract scope
 
@@ -134,6 +152,7 @@ Choose the smallest useful output:
 | User need | Output |
 |---|---|
 | “Audit my manuscript/outline” | Manuscript alignment audit + section-specific handoff list |
+| “Plan who writes what” | Pre-writing coordination table with unresolved authorship/policy questions |
 | “Do my sections line up?” | Aim-method-result-discussion map |
 | “Write Results” | Results paragraph(s) with boundary note if interpretation is requested |
 | “Explain this table/figure” | Figure/table narrative: message, key pattern, non-redundant text |
@@ -148,5 +167,6 @@ Choose the smallest useful output:
 - `references/cluster-literature-review.md`: background/literature synthesis, citation patterns, related-work structure.
 - `references/discussion-conclusion.md`: interpretation, unexpected results, implications, limitations, future work, Conclusion.
 - `references/peer-review-revision.md`: reviewer red flags, revise-and-resubmit, major revision strategy, claim-scope audit.
+- `references/method-fit-triage.md`: high-level non-meta design-family fit for RQs, aims, objectives, hypotheses, and evidence type.
 - `references/method-meta-analysis.md`: meta-analysis or quantitative evidence-synthesis workflow; do not treat P014 as a full methods protocol.
 - `references/language-and-outreach.md`: academic phrasing, hedging, tone, concise local wording after the logic is sound.

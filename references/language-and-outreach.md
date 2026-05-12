@@ -24,7 +24,7 @@ Language refinement cannot rescue weak research logic. Before rewriting, diagnos
 
 If the user asks only to “make this sound more academic,” first identify whether the sentence has a defensible claim, evidence base, scope, and reasoning move. If not, explain the weakness briefly and offer a stronger reasoning structure before a polished version.
 
-For outreach, recipient-specific claims require supplied or retrieved evidence. If the user has not provided the professor/lab page, paper, project, current opening, or research theme, produce a fit-audit checklist or email with explicit placeholders rather than inventing fit.
+For outreach, recipient-specific claims require supplied or retrieved evidence. If the user asks for current lab fit, recent papers, openings, or recipient-specific alignment and retrieval tools are available and not explicitly disallowed, retrieve current evidence before writing. If retrieval is unavailable, forbidden, or unnecessary for the user's chosen scope, produce a fit-audit checklist or email with explicit placeholders rather than inventing fit.
 
 ## Reasoning-language vs generic polish
 

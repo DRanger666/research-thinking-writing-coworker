@@ -4,7 +4,7 @@
 
 Load this file when the user is planning, diagnosing, drafting, revising, or auditing a literature review, Chapter 2, background section, related-work section, proposal literature section, theme map, synthesis matrix, or AI/LLM-assisted paper comparison workflow. Load `references/routing-map.md` first if the user also asks about gap discovery, proposal framing, manuscript architecture, or reviewer comments.
 
-Do not fabricate synthesis from topic names alone. If the task requires claims about what the literature says, ask for or rely on supplied papers, abstracts, notes, bibliographies, source summaries, search results, or the user's own reading notes. If those are absent, produce a structure, questions, and evidence-needed matrix rather than asserting field patterns as fact. For current or "latest" literature, use supplied/currently retrieved sources; otherwise produce a search plan rather than pretending to know the present field state.
+Do not fabricate synthesis from topic names alone. If the task requires claims about what the literature says, ask for or rely on supplied papers, abstracts, notes, bibliographies, source summaries, search results, or the user's own reading notes. If those are absent, produce a structure, questions, and evidence-needed matrix rather than asserting field patterns as fact. For current, recent, or "latest" literature, retrieve current sources when tools are available and not explicitly disallowed; if retrieval is unavailable or forbidden, produce a search plan and synthesis matrix template rather than pretending to know the present field state.
 
 ## Key distinctions
 
