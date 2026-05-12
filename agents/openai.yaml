@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Thinking Writing Coworker"
+  short_description: "Research thinking and writing coworker"
+  default_prompt: "Use $research-thinking-writing-coworker to diagnose and improve a research idea, section, or reviewer response."
