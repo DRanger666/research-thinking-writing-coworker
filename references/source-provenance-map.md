@@ -4,7 +4,7 @@
 
 Load this file when the user asks what the KB actually supports, when a task risks overclaiming source authority, or when source-local content must be separated from runtime transfer.
 
-The installed runtime skill does not carry the full canonical v12 KB. Use this file as a compact provenance and caveat map. If a deep audit of original post wording is needed, inspect the canonical KB only if it is available in the workspace or supplied by the user.
+The installed runtime skill does not carry the full canonical KB. Use this file as a compact provenance and caveat map. If a deep audit of original post/source wording is needed, inspect the canonical KB only if it is available in the workspace or supplied by the user.
 
 ## Runtime provenance rule
 
@@ -28,6 +28,7 @@ When provenance matters, use compact labels: `source-local`, `user-calibrated`, 
 | P006 | Treat as multi-role findings language: Results, preliminary data, combined Results/Discussion contexts, and Discussion-adjacent interpretation. Do not collapse it into the Discussion cluster. |
 | P011 | Treat literature-review motifs as argument moves and local paragraph logic, not as a phrase bank. |
 | P026 | Transfer by content-level front-end audit logic beyond thesis contexts when appropriate; do not present that transfer as source-local genre coverage. |
+| P027 | Treat ethical-use language as a quality-control and authorial-ownership gate for AI-assisted scientific writing/source work, not as a moralizing doctrine or ban on source-grounded AI assistance. |
 
 ## Compact caveat table
 
@@ -37,6 +38,7 @@ When provenance matters, use compact labels: `source-local`, `user-calibrated`, 
 | P013 | Source coverage was partial in v12; use as an operational runtime search-loop scaffold, not source-local proof of a complete research-methods guide. |
 | P014 | Manuscript-derived evidence extraction, not a slide transcript. Use as a manuscript-wide hub and publication-readiness integrator, not as exact post wording, journal-rule authority, or a replacement for section-specific references. |
 | P016 | Supports AI/LLM-assisted literature interrogation and refinement; not authority to fabricate synthesis without supplied source material. |
+| P027 | Manuscript-derived evidence source from Cheng, Calhoun, and Reedy (2025) on ChatGPT-like LLMs in academic writing. Use as a cross-cutting quality gate for authorial ownership, evidence traceability, citation reliability, human verification, disclosure awareness, and submission defensibility. It is not current journal-policy authority, not all-AI doctrine, and not a prohibition on source-grounded AI-assisted literature synthesis. |
 | P018 | High-level meta-analysis / quantitative evidence-synthesis workflow only; not universal methods, statistics, PRISMA, software, or risk-of-bias authority. |
 | P020 | Gap taxonomy is an operational runtime scaffold and is useful for triage, but preserve the v12 caveat about a likely inconsistency in the theoretical-gap row. |
 | P024 | Reviewer-lens problem-statement guidance should be used as an audit lens, not as proof of a complete source transcript. |
@@ -49,7 +51,7 @@ When provenance matters, use compact labels: `source-local`, `user-calibrated`, 
 | Reference | Main source base | Runtime support level |
 |---|---|---|
 | `cluster-gap-problem.md` | P003/P020/P022/P024/P013/P017/P015 | Strong for gap/problem/RQ/aim logic; provisional until source evidence is supplied for a specific field claim. |
-| `cluster-literature-review.md` | P012/P002/P011/P016 | Strong for review architecture and AI-assisted source interrogation; requires supplied/retrieved sources for literature claims. |
+| `cluster-literature-review.md` | P012/P002/P011/P016 | Strong for review architecture and AI-assisted source interrogation; requires supplied/retrieved sources for literature claims. Use P027 only as an adjacent quality gate when AI/source-control risk matters. |
 | `cluster-front-end-proposal.md` | P005/P007/P026 | Strong for proposal/front-end packaging; genre requirements and funder rules must be supplied or retrieved. |
 | `manuscript-and-results.md` | P014/P006 | Strong for manuscript alignment and Results/preliminary-data communication; journal-specific rules are external. |
 | `discussion-conclusion.md` | P004/P021/P019/P008 | Strong for Discussion, unexpected results, limitations, implications, and Conclusion architecture. |
@@ -57,7 +59,8 @@ When provenance matters, use compact labels: `source-local`, `user-calibrated`, 
 | `language-and-outreach.md` | P001/P009/P010 | Strong for reasoning-language and outreach structure; recipient-specific fit requires supplied or retrieved current evidence. |
 | `method-fit-triage.md` | Runtime transfer from gap/problem, proposal/front-end, manuscript alignment, and P018 boundary logic | Partial support for high-level RQ/aim/evidence/design-family alignment; detailed protocol/statistics require external standards or expertise. |
 | `method-meta-analysis.md` | P018 | Partial support for high-level meta-analysis planning; detailed technical methods need external standards or expertise. |
+| `ai-assisted-source-work-quality.md` | P027 plus P016/P014/P023 handoffs | Strong for AI-use quality control around visible sources, user-owned analysis, claim-evidence traceability, citation checks, and defensibility; target-specific disclosure/compliance rules must be supplied or retrieved. |
 
 ## Current-source rule
 
-When the user asks for current papers, latest evidence, journal rules, reporting-standard compliance, professor/lab fit, job openings, software capability, or any time-sensitive fact, use supplied material or retrieve current sources when tools are available and not explicitly disallowed. If retrieval is unavailable or forbidden, produce a source-acquisition plan rather than a factual claim.
+When the user asks for current papers, latest evidence, journal rules, AI-use disclosure/compliance rules, reporting-standard compliance, professor/lab fit, job openings, software capability, or any time-sensitive fact, use supplied material or retrieve current sources when tools are available and not explicitly disallowed. If retrieval is unavailable or forbidden, produce a source-acquisition plan rather than a factual claim.

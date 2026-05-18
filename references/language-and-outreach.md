@@ -4,7 +4,7 @@
 
 Load this file for two related but distinct tasks:
 
-1. **Academic reasoning-language refinement**: formal academic phrasing, hedging, significance language, sentence-level logic, paragraph transitions, contribution language, conclusion language, or revision of prose that already belongs to a research document.
+1. **Academic reasoning-language refinement**: formal academic phrasing, hedging, significance language, sentence-level logic, paragraph transitions, contribution language, conclusion language, AI-polished prose audit, or revision of prose that already belongs to a research document.
 2. **Scientific correspondence / research outreach**: concise emails to professors, PIs, supervisors, collaborators, advisors, labs, or research-position contacts.
 
 This file covers P001/P009 for cross-paper academic reasoning-language and P010 for research outreach. It is not a generic grammar editor, synonym generator, manuscript template, proposal template, or reviewer-response architecture.
@@ -21,6 +21,7 @@ Language refinement cannot rescue weak research logic. Before rewriting, diagnos
 | Manuscript sections do not align with aim, Methods, Results, or claims | Load `references/manuscript-and-results.md`. |
 | Discussion, limitation, implication, conclusion, or unexpected-result logic is weak | Load `references/discussion-conclusion.md`. |
 | Reviewer response is defensive, vague, or missing evidence/location of changes | Load `references/peer-review-revision.md`. |
+| AI polishing may have changed meaning, source support, citation fit, or claim scope | Load `references/ai-assisted-source-work-quality.md`. |
 
 If the user asks only to “make this sound more academic,” first identify whether the sentence has a defensible claim, evidence base, scope, and reasoning move. If not, explain the weakness briefly and offer a stronger reasoning structure before a polished version.
 
@@ -52,7 +53,7 @@ Use P001/P009 as reasoning anchors, not decorative phrase banks. Do not mechanic
 1. **Label the intended move**: contrast, evidence, significance, limitation, contribution, transition, conclusion, or another move.
 2. **Check the claim**: identify subject, evidence, scope, strength, and relationship to the document’s aim or section purpose.
 3. **Repair logic before style**: if the claim is vague, unsupported, or misplaced, give a compact diagnosis and hand off to the relevant task reference.
-4. **Rewrite precisely**: preserve the user’s meaning; improve hierarchy, connection, caution, and clarity.
+4. **Rewrite precisely**: preserve the user’s meaning, source support, and claim scope; improve hierarchy, connection, caution, and clarity.
 5. **Avoid ornamental inflation**: do not make simple claims sound grander than the evidence permits.
 6. **Return a usable output**: provide the revised sentence/paragraph plus a short note naming the reasoning move changed.
 
@@ -119,3 +120,4 @@ Choose the smallest useful output:
 - Do not treat P010 as manuscript, proposal, literature-review, or peer-review architecture.
 - Do not fabricate source grounding, lab fit, recipient details, citations, skills, publications, or methodological credibility.
 - Do not imply current openings, current lab priorities, or recent papers unless supplied by the user or retrieved from current sources.
+- Do not let AI-assisted polish quietly change technical meaning, hedge strength, citation fit, population/setting scope, method claims, result interpretation, or authorial voice.

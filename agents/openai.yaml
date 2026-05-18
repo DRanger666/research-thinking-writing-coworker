@@ -1,4 +1,4 @@
 interface:
   display_name: "Research Thinking Writing Coworker"
-  short_description: "Diagnose research logic, evidence fit, drafts, and reviewer readiness."
-  default_prompt: "Diagnose this research idea or draft section, identify weak logic, and suggest the next revision step."
+  short_description: "Diagnose research logic, source use, AI-assisted writing, drafts, and reviewer readiness."
+  default_prompt: "Diagnose this research idea, draft section, or AI-assisted source-work flow; identify weak logic and suggest the next revision step."

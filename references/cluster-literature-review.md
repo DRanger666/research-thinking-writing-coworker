@@ -2,7 +2,7 @@
 
 ## Load when
 
-Load this file when the user is planning, diagnosing, drafting, revising, or auditing a literature review, Chapter 2, background section, related-work section, proposal literature section, theme map, synthesis matrix, or AI/LLM-assisted paper comparison workflow. Load `references/routing-map.md` first if the user also asks about gap discovery, proposal framing, manuscript architecture, or reviewer comments.
+Load this file when the user is planning, diagnosing, drafting, revising, or auditing a literature review, Chapter 2, background section, related-work section, proposal literature section, theme map, synthesis matrix, or AI/LLM-assisted paper comparison workflow. Load `references/routing-map.md` first if the user also asks about gap discovery, proposal framing, manuscript architecture, reviewer comments, or AI-assisted source-work defensibility.
 
 Do not fabricate synthesis from topic names alone. If the task requires claims about what the literature says, ask for or rely on supplied papers, abstracts, notes, bibliographies, source summaries, search results, or the user's own reading notes. If those are absent, produce a structure, questions, and evidence-needed matrix rather than asserting field patterns as fact. For current, recent, or "latest" literature, retrieve current sources when tools are available and not explicitly disallowed; if retrieval is unavailable or forbidden, produce a search plan and synthesis matrix template rather than pretending to know the present field state.
 
@@ -16,7 +16,7 @@ Do not fabricate synthesis from topic names alone. If the task requires claims a
 | Related work | Positions the study among adjacent approaches, debates, methods, or applications. | Lists studies without explaining relation to the present study. |
 | Literature review | Builds a field-level argument that makes the study defensible, necessary, and logically connected to RQs/aims. | Author-by-author bibliography with commentary. |
 
-P012 supplies the purpose and credibility frame: the review should show that the topic is defensible, the RQs make sense, and the study deserves to exist. P002 supplies macro architecture. P011 supplies local review motifs. P016 supplies an operational AI/LLM-assisted interrogation and refinement workflow.
+P012 supplies the purpose and credibility frame: the review should show that the topic is defensible, the RQs make sense, and the study deserves to exist. P002 supplies macro architecture. P011 supplies local review motifs. P016 supplies an operational AI/LLM-assisted interrogation and refinement workflow. P027 is adjacent: use `references/ai-assisted-source-work-quality.md` when AI assistance raises source visibility, citation reliability, authorial ownership, or defensibility questions.
 
 ## Macro workflow
 
@@ -40,6 +40,7 @@ Use AI as a structured reading and comparison assistant, not as a source substit
 - Separate extraction from interpretation. Extraction captures what sources say; interpretation explains relationships across sources; writing turns relationships into paragraphs.
 - Ask the model to show a claim-evidence table before drafting. If a claim lacks evidence, mark it as a hypothesis, assumption, or search target.
 - Use AI for simplifying difficult papers, comparing authors, improving flow, academic paraphrasing, refining rough paragraphs, and structuring sections only after the source basis is visible.
+- If AI summarizes, paraphrases, outlines, or drafts from source material, use P027 checks: verify references, preserve meaning, keep the user's interpretation primary, and do not let model memory become a substitute source.
 
 ## Anti-patterns to catch
 
@@ -51,6 +52,7 @@ Use AI as a structured reading and comparison assistant, not as a source substit
 - **Theory decoration:** Theory is named but not used to explain, organize, challenge, or interpret findings.
 - **Overloaded front end:** A Chapter 1/proposal introduction becomes a full literature review. Hand off to `references/cluster-front-end-proposal.md` for genre fit.
 - **False currency:** Claims that the literature is current or outdated without field-sensitive evidence. Ask for supplied sources or retrieve current sources when appropriate.
+- **Source-invisible AI synthesis:** AI-produced review claims, themes, or references cannot be traced to visible papers, notes, abstracts, or retrieved sources. Hand off to `references/ai-assisted-source-work-quality.md`.
 
 ## Compact paragraph motifs
 
@@ -82,6 +84,7 @@ Use these as reasoning skeletons, not phrase banks.
 ## Handoffs
 
 - Use `references/cluster-gap-problem.md` when the review lacks a clear gap, uses absence-only novelty, or needs RQ/aim/problem alignment.
+- Use `references/ai-assisted-source-work-quality.md` when AI assistance, citation reliability, source visibility, disclosure/compliance awareness, or submission defensibility is part of the literature-review task.
 - Use `references/cluster-front-end-proposal.md` when the literature material must be compressed into a concept paper, proposal, Chapter 1, specific-aims-like page, qual proposal, or supervisor memo.
 - Use `references/manuscript-and-results.md` when the review/background must align with the full manuscript's aim, methods, Results, and Introduction.
 - Use `references/peer-review-revision.md` when the user is avoiding reviewer red flags or responding to comments that the review is a list, outdated, unsynthesized, or missing key literature.

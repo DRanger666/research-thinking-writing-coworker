@@ -2,7 +2,7 @@
 
 ## When to load
 
-Load this file for pre-submission red-flag audits, reviewer-risk lists, revise-and-resubmit planning, major-revision strategy, reviewer comment diagnosis, response planning, claim-scope audits, and repair of manuscripts that reviewers may find weak.
+Load this file for pre-submission red-flag audits, reviewer-risk lists, revise-and-resubmit planning, major-revision strategy, reviewer comment diagnosis, response planning, claim-scope audits, AI/prose/source-work reviewer risk, and repair of manuscripts that reviewers may find weak.
 
 Use it when the user asks what reviewers might dislike, why a manuscript may receive revisions, how to respond to major revisions, or how to convert reviewer comments into manuscript repairs. Do not offer generic reassurance when critique or repair is needed.
 
@@ -27,6 +27,7 @@ Use P023 as a tough reviewer lens. Flag the issue, explain why it matters, then 
 | Superficial limitations | Limitations are token labels without interpretive consequence. | Does each limitation explain how interpretation is affected? | Add consequence and scope; avoid self-destruction or generic apology. |
 | Outdated references | Evidence base looks stale unless older works are seminal or the field legitimately relies on older anchor works. | Are current, relevant studies missing for this field, or are old sources dominating without justification? | Update sources when current evidence is required, identify seminal vs current, and repair literature positioning. |
 | Generic/citation-mismatched AI content | Tone shifts, vague vocabulary, or citations do not support claims. | Does every claim have a matching source and does the prose sound field-specific? | Replace generic prose with claim-evidence alignment and verified citations. |
+| AI-substituted source work | Literature claims, references, data interpretation, or compliance judgments appear generated without visible source control. | Can each AI-assisted claim be traced to source papers, user notes, data, or target rules? | Load `references/ai-assisted-source-work-quality.md`; rebuild from visible sources and human-owned interpretation. |
 | Claim-evidence mismatch | The manuscript asserts more than it shows. | Can each major claim be traced to data, method, literature, or cited evidence? | Build a claim-evidence-scope table and cut unsupported claims. |
 
 ## Claim-scope audit
@@ -112,7 +113,7 @@ When auditing a draft before submission:
 4. Check manuscript alignment: aim -> Methods -> Results -> Discussion -> Conclusion.
 5. Check claim scope: data strength, design, sample, setting, causality, generalizability.
 6. Check limitations: specificity, consequence, and relation to interpretation.
-7. Check AI/prose risk: generic language, unsupported claims, citation mismatch, tone shifts.
+7. Check AI/prose/source-work risk: generic language, unsupported claims, citation mismatch, tone shifts, source-invisible literature claims, fabricated references, and AI-substituted interpretation.
 8. Produce a prioritized repair plan: high-risk conceptual issues first, then section organization, then prose.
 
 ## Output selector
@@ -133,3 +134,4 @@ When auditing a draft before submission:
 - `references/cluster-gap-problem.md`: weak problem statement, vague gap, unconvincing novelty, unclear aims/objectives.
 - `references/discussion-conclusion.md`: overreaching Discussion, superficial limitations, vague implications, broad Conclusion.
 - `references/language-and-outreach.md`: tone, hedging, response phrasing, and concise reviewer-facing language after the repair logic is clear.
+- `references/ai-assisted-source-work-quality.md`: AI-assisted source-work audit, fabricated/source-invisible references, authorial ownership, meaning preservation, disclosure awareness, and submission defensibility.

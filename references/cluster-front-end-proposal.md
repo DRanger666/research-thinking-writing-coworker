@@ -2,7 +2,7 @@
 
 ## Load when
 
-Load this file when the user is preparing or auditing a concept paper, formal proposal, grant-like or specific-aims-like front end, qual/pre-qual proposal, thesis Chapter 1, dissertation introduction, supervisor-facing research memo, committee memo, or early research-idea package. Load `references/routing-map.md` first if the user has not specified the genre or if the task mixes proposal, manuscript, literature review, and methods demands.
+Load this file when the user is preparing or auditing a concept paper, formal proposal, grant-like or specific-aims-like front end, qual/pre-qual proposal, thesis Chapter 1, dissertation introduction, supervisor-facing research memo, committee memo, or early research-idea package. Load `references/routing-map.md` first if the user has not specified the genre or if the task mixes proposal, manuscript, literature review, methods demands, or AI-assisted source-work defensibility.
 
 Use this file to package validated research logic. If the gap, problem, or RQs are weak, hand off first to `references/cluster-gap-problem.md`; do not hide weak reasoning inside a polished proposal structure.
 
@@ -37,7 +37,8 @@ P026 transfers by content and audit logic, not by rigid format. Its front-end ch
 7. **Check significance.** Specify who benefits and how the study contributes to theory, practice, policy, method, or future research. Avoid "adds to the literature" as the only significance.
 8. **Define boundaries.** Add operational definitions for key terms; clarify scope, delimitations, assumptions, and what the study will not cover.
 9. **Fit method/design at front-end level.** State why the design can answer the RQs and address the gap. Keep details at alignment level unless the user supplies protocol requirements. For high-level non-meta design-family fit, hand off to `references/method-fit-triage.md`; for meta-analysis or evidence synthesis, hand off to `references/method-meta-analysis.md`.
-10. **Audit flow.** The front end should read as a chain: focused background -> problem -> gap/stakes -> purpose -> RQs/objectives/aims -> significance -> feasible design.
+10. **Check AI/source-work quality if relevant.** If AI helped generate, summarize, outline, polish, or cite proposal material, verify source visibility, authorial ownership, meaning preservation, citation support, and target-rule/disclosure status.
+11. **Audit flow.** The front end should read as a chain: focused background -> problem -> gap/stakes -> purpose -> RQs/objectives/aims -> significance -> feasible design.
 
 ## Front-end alignment checks
 
@@ -72,6 +73,7 @@ P026 transfers by content and audit logic, not by rigid format. Its front-end ch
 - Do not overstate grant-specific conventions; use specific-aims-like logic only as a compact argumentative front-end pattern unless funder/program guidance is supplied or retrieved.
 - Do not build a full literature review here. Use selective literature to justify the problem; hand off detailed synthesis to `references/cluster-literature-review.md`.
 - Do not polish a proposal whose gap, problem, or RQs are unsupported.
+- Do not let AI-generated rationale, citations, claims, or aims substitute for visible source evidence and human-owned research logic.
 
 ## Handoffs
 
@@ -81,3 +83,4 @@ P026 transfers by content and audit logic, not by rigid format. Its front-end ch
 - Use `references/method-fit-triage.md` when a proposal/front-end question asks whether the RQ, objective, aim, hypothesis, evidence type, and broad design family fit each other.
 - Use `references/method-meta-analysis.md` when the proposed design is a meta-analysis or quantitative evidence synthesis and the user needs a high-level workflow check.
 - Use `references/language-and-outreach.md` for final academic phrasing, significance wording, concise supervisor outreach, or person-to-person research communication after the logic is coherent.
+- Use `references/ai-assisted-source-work-quality.md` when AI assistance affected source summaries, citations, proposal prose, aims, disclosure/compliance awareness, or submission/committee defensibility.

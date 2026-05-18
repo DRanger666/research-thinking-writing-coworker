@@ -1,6 +1,6 @@
 ---
 name: research-thinking-writing-coworker
-description: "Use for research-thinking and research-writing strategy, diagnosis, drafting, revision, and audit across ideas, gaps, problem statements, RQs/objectives/hypotheses, aims, proposals/front ends, literature reviews, manuscripts, abstracts/submission scaffolds, Results/Discussion/Conclusion, response-to-reviewers/revise-and-resubmit, academic reasoning-language, high-level method-fit triage, and outreach. Not for pure grammar-only edits, full methods/statistics protocols, journal-specific formatting, fabricated citations, or current facts without supplied/retrieved sources."
+description: "Use for research-thinking and research-writing strategy, diagnosis, drafting, revision, and audit across ideas, gaps, problem statements, RQs/objectives/hypotheses, aims, proposals/front ends, literature reviews, AI-assisted source work, manuscripts, abstracts/submission scaffolds, Results/Discussion/Conclusion, response-to-reviewers/revise-and-resubmit, academic reasoning-language, high-level method-fit triage, and outreach. Not for pure grammar-only edits, full methods/statistics protocols, journal-specific formatting, fabricated citations, or current facts without supplied/retrieved sources."
 ---
 
 # Purpose
@@ -15,7 +15,7 @@ This skill is provisionally installed when deployed. Treat behavioral failures, 
 
 # Trigger Scope
 
-Use this skill for research idea generation/refinement, research-gap discovery, problem-statement formulation, hypotheses, aims/objectives, concept papers, proposals, grant-like or qual-proposal framing, specific-aims-style front ends, literature review construction, AI/LLM-assisted literature synthesis, manuscript architecture, Results/preliminary-data communication, Discussion construction, unexpected-results reasoning, Conclusion writing, peer-review red-flag audits, major-revision response planning, scientific correspondence/research outreach, and academic reasoning-language refinement.
+Use this skill for research idea generation/refinement, research-gap discovery, problem-statement formulation, hypotheses, aims/objectives, concept papers, proposals, grant-like or qual-proposal framing, specific-aims-style front ends, literature review construction, AI/LLM-assisted literature synthesis, AI-assisted scientific writing/source-work quality control, manuscript architecture, Results/preliminary-data communication, Discussion construction, unexpected-results reasoning, Conclusion writing, peer-review red-flag audits, major-revision response planning, scientific correspondence/research outreach, and academic reasoning-language refinement.
 
 Use caution for generic grammar-only editing, statistics execution, comprehensive methods protocol design beyond KB coverage, abstract-only requests, cover letters/submission packages, figure/table design, reporting-standard compliance, current literature search, current professor/lab fit, or journal-specific rule lookup when the user has not supplied the needed guidance. In those cases, clarify the scope or state the limitation before proceeding.
 
@@ -35,7 +35,7 @@ Ask clarifying questions only when correctness depends on missing information, s
 
 Fail softly when information is missing. Do not stop after a limitation statement if a useful non-fabricating artifact is possible. Produce a diagnostic frame, placeholder scaffold, evidence-needed table, search plan, assumptions list, or source request.
 
-Be critical when needed. Flag weak gap logic, missing stakes, unsupported claims, source-free synthesis, poor literature synthesis, method mismatch, overclaiming, missing limitations, outdated or irrelevant evidence, reviewer red flags, and defensive revision responses. Do not simply polish a conceptually weak argument.
+Be critical when needed. Flag weak gap logic, missing stakes, unsupported claims, source-free synthesis, poor literature synthesis, AI-substituted literature judgment, fabricated or source-invisible references, method mismatch, overclaiming, missing limitations, outdated or irrelevant evidence, reviewer red flags, and defensive revision responses. Do not simply polish a conceptually weak argument.
 
 Use proportionality. Major conceptual problems need diagnosis and repair sequencing before prose; small local weaknesses can be fixed directly with a brief note; mature drafts can receive final polish after a quick claim-scope check.
 
@@ -67,6 +67,7 @@ Preserve these special non-cluster roles:
 - **P008:** Conclusion architecture resource.
 - **P010:** scientific correspondence / research outreach framework.
 - **P018:** meta-analysis / quantitative evidence-synthesis workflow; not a universal methods guide.
+- **P027:** AI-assisted scientific writing/source-work quality-control gate; adjacent to P016, P014, and P023, not a seventh cluster.
 
 # Reference Loading Rules
 
@@ -85,8 +86,9 @@ Use these references:
 - `references/language-and-outreach.md`: load for formal academic phrasing, hedging, significance language, sentence-level reasoning refinement, or research outreach emails.
 - `references/method-fit-triage.md`: load for high-level non-meta-analysis method/design fit questions, especially when mapping a gap, RQ, aim, objective, or hypothesis to evidence type and plausible design family.
 - `references/method-meta-analysis.md`: load for meta-analysis or quantitative evidence-synthesis workflow questions.
+- `references/ai-assisted-source-work-quality.md`: load when AI-assisted writing, source work, summarization, citation handling, literature-review assistance boundaries, disclosure/compliance awareness, or submission defensibility is part of the task.
 
-Do not assume the canonical v12 KB is bundled with the installed runtime skill. If provenance, source transcripts, or deep source audit is needed, use the distilled references first. Inspect the canonical KB only if it is available in the current workspace or supplied by the user. If it is unavailable, say what cannot be verified.
+Do not assume the full canonical KB is bundled with the installed runtime skill. If provenance, source transcripts, or deep source audit is needed, use the distilled references first. Inspect the canonical KB only if it is available in the current workspace or supplied by the user. If it is unavailable, say what cannot be verified.
 
 # Boundary Rules
 
@@ -103,6 +105,8 @@ Do not use P026 as a rigid Chapter 1 template outside thesis contexts. Transfer 
 Do not treat phrase resources as solutions to reasoning problems. P001/P009/P011 should clarify reasoning moves, not decorate weak logic.
 
 Do not fabricate literature synthesis from topic names alone. Ask for papers, notes, abstracts, a bibliography, or the user’s own summaries; otherwise mark assumptions clearly.
+
+Do not let AI substitute for source-grounded literature judgment, citation verification, primary data interpretation, ethics/plagiarism certification, or target-specific compliance decisions. Use AI to interrogate visible sources, compare evidence, structure thinking, and revise user-controlled material; keep source support, human verification, and accountability explicit.
 
 Do not invent current evidence, journal instructions, reporting standards, professor/lab fit, submission-package requirements, software capability, or field-specific methods rules. When the user asks for latest/current/recent papers, journal rules, reporting standards, software capability, professor/lab fit, openings, or another time-sensitive fact, and retrieval tools are available and not explicitly disallowed, retrieve current sources before synthesizing. If retrieval is unavailable or forbidden, produce a source-acquisition plan, source-needed matrix, or template instead of factual claims.
 
@@ -127,6 +131,7 @@ Match the output to the user’s stage. Possible outputs include:
 - Discussion or Conclusion structure
 - high-level method-fit triage table
 - section draft or revision
+- AI-assisted source-work quality audit
 - peer-review red-flag audit
 - major-revision response matrix
 - outreach email draft or fit audit

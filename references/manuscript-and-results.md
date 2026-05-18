@@ -2,7 +2,7 @@
 
 ## When to load
 
-Load this file for whole-manuscript architecture, manuscript outline or draft audits, publication-readiness checks, aim-method-result-discussion alignment, Results writing, preliminary-data communication, abstract alignment, submission-readiness triage, and high-level table/figure narrative discipline.
+Load this file for whole-manuscript architecture, manuscript outline or draft audits, publication-readiness checks, aim-method-result-discussion alignment, Results writing, preliminary-data communication, abstract alignment, submission-readiness triage, high-level table/figure narrative discipline, and manuscript-level AI-assisted writing/source-work defensibility.
 
 Use it first when the user asks for a full manuscript audit, manuscript coordination plan, or Results/preliminary-data help. If the task becomes primarily gap, literature-review, Discussion, peer-review, method-fit, meta-analysis, or language/outreach work, keep this file as the manuscript hub and hand off to the section-specific reference.
 
@@ -12,6 +12,7 @@ Use it first when the user asks for a full manuscript audit, manuscript coordina
 |---|---|---|
 | P014 | Manuscript-wide architecture and publication-readiness hub/integrator. Coordinates target audience/journal, authorship/work ownership planning when governed by local norms, Introduction, Methods, Results, Discussion, title, submission rules, and final checklist. | Not a cluster, not an abstract manual, not an authorship-ethics authority, and not a replacement for section-specific references or journal instructions. Use it to align sections, then load the relevant section file. |
 | P006 | Local findings-communication resource for Results, Discussion-adjacent findings language, preliminary data, grant/qual materials, progress updates, and figure/table references. | Adjacent to Discussion but not a Discussion-cluster member. Keep Results reporting separate from Discussion interpretation. |
+| P027 | Adjacent AI-assisted scientific writing/source-work quality-control gate for authorial ownership, evidence traceability, citation reliability, disclosure awareness, and submission defensibility. | Not a manuscript template, not a current journal-policy authority, and not a ban on source-grounded AI-assisted writing. Load `references/ai-assisted-source-work-quality.md` when AI use materially affects the manuscript. |
 
 ## Manuscript alignment workflow
 
@@ -25,7 +26,8 @@ Use P014 as an alignment engine, not as a universal template. Audit the manuscri
 6. **Discussion.** Check that the Discussion interprets key findings, compares with literature/theory, explains implications and limitations, and does not introduce new results. Hand off to `references/discussion-conclusion.md` for the actual Discussion build.
 7. **Conclusion.** Check that the ending compresses the completed argument and stays within the design/data. Hand off to `references/discussion-conclusion.md` for Conclusion drafting.
 8. **Title.** Check whether the title is informative, searchable, audience-appropriate, and aligned with variables, population/setting, design, timing, or main result where appropriate.
-9. **Final checklist.** Audit consistency across aim, Methods, Results, Discussion, title, citations, table/figure messages, limitations, implications, and future steps.
+9. **AI/source-work quality if relevant.** If AI helped draft, summarize, outline, polish, translate, compare sources, or handle references, check authorial ownership, visible source support, citation accuracy, meaning preservation, claim scope, and target-rule/disclosure status.
+10. **Final checklist.** Audit consistency across aim, Methods, Results, Discussion, title, citations, table/figure messages, limitations, implications, future steps, and any AI-assisted source-work claims.
 
 ### Pre-writing manuscript coordination
 
@@ -54,6 +56,7 @@ For submission readiness, check:
 - target journal/venue and author guidance supplied or missing;
 - title, abstract, Introduction, Methods, Results, Discussion, limitations, and Conclusion alignment;
 - claim scope, citation support, table/figure messages, ethics/data/reporting statements, and supplementary material consistency;
+- AI-assisted prose, source summaries, citation handling, or disclosure/compliance questions when relevant;
 - cover letter or submission-package requirements only if supplied by the user or retrieved from current sources.
 
 For abstracts, build or audit a compact chain: problem/gap -> aim/objective -> design/method -> key result(s) -> scoped contribution/implication. If the target journal specifies a structured abstract, use the supplied structure; otherwise provide a generic alignment scaffold and say that journal-specific abstract requirements are external.
@@ -170,3 +173,4 @@ Choose the smallest useful output:
 - `references/method-fit-triage.md`: high-level non-meta design-family fit for RQs, aims, objectives, hypotheses, and evidence type.
 - `references/method-meta-analysis.md`: meta-analysis or quantitative evidence-synthesis workflow; do not treat P014 as a full methods protocol.
 - `references/language-and-outreach.md`: academic phrasing, hedging, tone, concise local wording after the logic is sound.
+- `references/ai-assisted-source-work-quality.md`: AI-assisted manuscript/source-work audit, citation reliability, authorial ownership, disclosure awareness, or submission defensibility.
